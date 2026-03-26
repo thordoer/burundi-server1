@@ -1,0 +1,132 @@
+.containee {
+  width: 100%;
+  /* background: linear-gradient(to right, rgb(181, 181, 187), rgb(218, 59, 10)); */
+  background-color: rgb(223, 89, 89);
+  /* background-color: rgb(4, 11, 27); */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 4rem;
+  /* background-color: blue; */
+}
+body {
+  background-color: rgb(18, 18, 145);
+  background-color: white;
+}
+header h1 {
+  font-size: 2.8rem;
+  color: rgba(255, 255, 255, 0.87);
+  /* color: black; */
+}
+
+.clientDetsils {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* border: 1px solid rgba(255, 255, 255, 0.673); */
+  background-color: rgb(85, 85, 231);
+  background-color: black;
+  box-shadow: 0 3px 3px 3px rgba(245, 245, 245, 0.404);
+  background-color: rgba(0, 0, 0, 0.392);
+  text-align: left;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.clientDetsils p {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.847);
+  color: rgb(247, 247, 252);
+}
+.clientDetsils h2 {
+  font-size: 1.8rem;
+  color: white;
+}
+.clientDetsils h3 {
+  font-size: 1.6rem;
+  color: white;
+  background-color: rgba(122, 192, 122, 0.808);
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.congrtulations {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 3px 0 0 green;
+  background-color: rgb(216, 90, 90);
+  background-color: rgba(0, 0, 0, 0.392);
+  box-shadow: 0 3px 3px 3px rgba(245, 245, 245, 0.404);
+  text-align: left;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.congrtulations h1 {
+  font-size: 2.8rem;
+  color: whitesmoke;
+}
+
+.congrtulations p {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.congrtulations div {
+  text-align: center;
+}
+
+.congrtulations div span {
+  font-size: 4rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.congrtulations div p {
+  color: rgba(245, 245, 245, 0.732);
+}
+
+.compliance {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: rgb(85, 85, 231);
+  background-color: black;
+  /* background-color: rgba(0, 0, 0, 0.747); */
+  box-shadow: 0 3px 3px 3px rgba(245, 245, 245, 0.404);
+
+  text-align: left;
+  /* box-shadow: 0 3px 0 0 green; */
+  padding: 2rem;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 1.2rem;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.392);
+}
+.compliance h1 {
+  font-size: 2.8rem;
+  color: whitesmoke;
+}
+
+.compliance p {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.footer {
+  padding: 2rem;
+  color: rgba(245, 245, 245, 0.764);
+}
