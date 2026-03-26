@@ -57,7 +57,7 @@ async function registerAllWebhooks() {
 
   for (const config of BOTS_CONFIG) {
     try {
-      const webhookUrl = `${process.env.RENDER_EXTERNAL_URL || `https://inbucks-sever.onrender.com`}/webhook/${config.name}`;
+      const webhookUrl = `${process.env.RENDER_EXTERNAL_URL || `https://burundi-server1.onrender.com`}/webhook/${config.name}`;
 
       console.log(`📡 Setting webhook for ${config.name}: ${webhookUrl}`);
 
