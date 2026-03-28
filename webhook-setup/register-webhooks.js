@@ -6,7 +6,7 @@ const axios = require("axios");
 BOTS = [
   {
     name: "client1",
-    token: "8263956317:AAGHJfVx07K36VrbrxzOHWedMKL5YnzBNBQ",
+    token: "8551231951:AAFv7Oj_7fAJ6_eAAJzaLVOoyTdUsQU_JCE",
     chatId: "7544733524",
   },
 
@@ -15,16 +15,16 @@ BOTS = [
     token: "8696618580:AAEMrm5zxE88LpqZkFwu8aVQUlP-YaYdFW4",
     chatId: "8104507429",
   },
-  // {
-  //   name: "client3",
-  //   token: "8291550699:AAHPAzt6YPyfa0OT8EI4iE82KinhGHlITQw",
-  //   chatId: "5198742565",
-  // },
-  // {
-  //   name: "client4",
-  //   token: "8265399099:AAFFVnFP-v9VfPlK1ta-m-tpYwTV33-j69U",
-  //   chatId: "6329192290",
-  // },
+  {
+    name: "client3",
+    token: "8697429856:AAF-A-tjDCg3jlf8LkErAkfuXYTmoksh23M",
+    chatId: "8104507429",
+  },
+  {
+    name: "client4",
+    token: "8718319295:AAFkz-rC8upJD0Vh9SY6lt5tzq78RhYz6SQ",
+    chatId: "5198742565",
+  },
   // {
   //   name: "client5",
   //   token: "8536926842:AAG0VgEEUu-KRL8hI_59sqhnVU9pzVlxaJc",
@@ -172,7 +172,7 @@ BOTS = [
 // After you deploy the single server, you'll get a URL like:
 // - Railway: https://your-project.railway.app
 // - Render: https://your-project.onrender.com
-const NEW_SERVER_URL = "https://inbucks-sever.onrender.com"; // ⬅️ CHANGE THIS!
+const NEW_SERVER_URL = "https://burundi-server1.onrender.com"; // ⬅️ CHANGE THIS!
 
 // ============= MAIN FUNCTION =============
 async function registerAllWebhooks() {

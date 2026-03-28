@@ -41,7 +41,7 @@ function Compliance({ client }) {
             <h1>Itangazo ryo kwubahiriza</h1>
             <p>
               Konti yawe ya InnBucks itegerezwa kuba ikora kandi ikabungabunga
-              umutekano . n’imiburiburi USD {percent}. Iyi deposit ni iyo gutuma
+              umutekano . n’imiburiburi BIF {percent}. Iyi deposit ni iyo gutuma
               . konti yemerewe guhabwa inguzanyo, kandi iragufasha gukingira
               neza inyungu z’amahera.
             </p>
